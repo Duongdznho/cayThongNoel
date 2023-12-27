@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	
+	<!-- Tải script -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/howler.min.js"></script>
+	<script type="text/javascript" src="js/typed.js"></script>
+	<script type="text/javascript" src="js/ThreeCanvas.js"></script>
+	<script type="text/javascript" src="js/Snow.js"></script>
+	<script type="text/javascript" src="js/Custom.js"></script>
+	
+</head>
+<body onLoad="loading();">
+	<!-- Hiển thị trong lúc đợi load -->
+	<div id="loading">
+		<div class="spinner">
+        </div>
+	</div>
+	<!-- Giao diện chính -->
+	<div id="wrap">
+        <!-- Hiệu ứng tuyết-->
+        <div class="snow">
+        </div>
+        <!-- Đóng băng -->
+        <div class="ice">
+        </div>
+
+        <img id="santaClaus" src="https://cdn.fbsbx.com/v/t59.2708-21/406742387_893270191918820_6847168976942750792_n.gif?_nc_cat=103&ccb=1-7&_nc_sid=cf94fc&_nc_eui2=AeEG3Eu1iIggmufev9kl1aXuLaHvridmgsMtoe-uJ2aCwxRz0s2fhcuzwVyqNNooeruY5av_wQPFjtUHpvuI5bfm&_nc_ohc=OYcA8NeC2w4AX8_ADat&_nc_ht=cdn.fbsbx.com&oh=03_AdSIaar1laZUugJQ-byegDj7SrFJBn99BZxEAPUSIrQgSA&oe=658BC9A6" alt="Santa Claus" />
+
+        <div id="letter">
+        	<span class="message"></span>
+        </div>
+
+        <img id="reindeer" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/368800033_724252112936996_2082183813778672844_n.png?_nc_cat=106&ccb=1-7&_nc_sid=510075&_nc_eui2=AeHkMRN1CBlcZKrCvuT0kZmyPPH3ECnlyr488fcQKeXKvqcanPYTQX9kTZPKJQJJSDpn6R-iplqP9DdfRciO3ZUD&_nc_ohc=worEAxoP3-0AX932EeR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ9SC6olUGpwtAId1MSM8fTx9QhhaSC9f2HXhbsqrMCgA&oe=65B1C99D" alt="Reindeer" />
+	</div>
+</body>
+</html>
